@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Eriamabho Atsidrei Heritier</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+</head>
+<body class="animated-bg bg-gray-900 text-white font-sans">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-gray-800 bg-opacity-90 z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-5 flex justify-between items-center">
+<a href="#" class="text-3xl font-bold text-blue-400">Heritier <span class="text-purple-400">Eriamabho</span></a>
+            <div class="hidden md:flex space-x-10">
+                <a href="#home" class="text-2xl hover:text-blue-400 transition">Accueil</a>
+                <a href="#about" class="text-2xl hover:text-blue-400 transition">À propos</a>
+                <a href="#skills" class="text-2xl hover:text-blue-400 transition">Compétences</a>
+                <a href="#projects" class="text-2xl hover:text-blue-400 transition">Projets</a>
+                <a href="#contact" class="text-2xl hover:text-blue-400 transition">Contact</a>
+            </div>
+            <button class="md:hidden focus:outline-none" id="menu-btn">
+                <i data-feather="menu"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-gray-800 w-full px-6 py-5" id="mobile-menu">
+            <div class="flex flex-col space-y-6">
+                <a href="#home" class="text-2xl hover:text-blue-400 transition">Accueil</a>
+                <a href="#about" class="text-2xl hover:text-blue-400 transition">À propos</a>
+                <a href="#skills" class="text-2xl hover:text-blue-400 transition">Compétences</a>
+                <a href="#projects" class="text-2xl hover:text-blue-400 transition">Projets</a>
+                <a href="#contact" class="text-2xl hover:text-blue-400 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+<section id="home" class="min-h-screen flex items-center justify-center bg-gray-900 pt-20">
+        <div class="container mx-auto px-6 py-20 flex flex-col md:flex-row items-center md:items-start gap-10">
+            <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+<span class="hero-badge inline-block mb-6 px-5 py-3 rounded-full bg-white/10 text-blue-200 text-base uppercase tracking-[0.2em]">Développeur Full Stack · Réseaux · Cisco</span>
+<h1 class="text-5xl md:text-7xl font-bold mb-8">Bonjour, je suis <br><span class="text-gradient">Heritier</span></h1>
+<h2 class="text-3xl md:text-4xl text-purple-300 mb-8 max-w-3xl">Je développe des expériences numériques fluides et innovantes, soutenues par des architectures réseau solides et un back-end efficace.</h2>
+                <div class="flex flex-col sm:flex-row sm:items-center sm:space-x-6 space-y-6 sm:space-y-0">
+                    <a href="#contact" class="btn-primary inline-flex items-center justify-center gap-3 px-10 py-5 rounded-xl transition transform hover:-translate-y-1 text-lg font-semibold">
+                        <i data-feather="mail" class="w-5 h-5"></i>
+                        Me contacter
+                    </a>
+                    <a href="#projects" class="btn-secondary inline-flex items-center justify-center gap-3 px-10 py-5 rounded-xl transition transform hover:-translate-y-1 text-lg font-semibold">
+                        <i data-feather="folder" class="w-5 h-5"></i>
+                        Voir mes projets
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center" data-aos="fade-left">
+                <div class="relative">
+                    <div class="absolute -inset-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur opacity-75 animate-pulse"></div>
+                    <img src="image/hero.jpg" alt="Heritier Photo" class="profile-img relative rounded-full w-80 h-80 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem] object-cover hero-image-float">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-gray-800">
+        <div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold section-title text-center mb-6" data-aos="fade-up">À <span class="text-blue-400">propos</span> de moi</h2>
+                    <div class="section-divider mx-auto mb-16"></div>
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-12">
+                <div class="md:w-1/3 mb-10 md:mb-0 flex justify-center" data-aos="fade-right">
+                    <img src="image/hero.jpg" alt="Heritier Profile" class="w-64 h-64 md:w-72 md:h-72 rounded-full object-cover profile-img border-4 border-white border-opacity-20 shadow-2xl">
+                </div>
+                <div class="md:w-2/3 md:pl-8" data-aos="fade-left">
+<h3 class="text-3xl font-semibold mb-6"><span class="text-purple-400">Développeur passionné</span> par la technologie</h3>
+                    <p class="text-gray-300 mb-8 text-lg leading-relaxed">
+                        Je m'appelle Eriamabho Atsidri Héritier. Passionné par le développement web et les réseaux informatiques, je me spécialise dans la création d'applications modernes, 
+                        la maintenance et la résolution de problèmes techniques, avec un intérêt particulier pour les solutions innovantes.
+                    </p>
+                    <p class="text-gray-300 text-lg leading-relaxed">
+                        Spécialisé en ingénierie informatique, je conçois et développe des applications modernes tout en assurant la mise en place et l'administration 
+                        d'infrastructures réseaux fiables et performantes. Grâce à une approche analytique et orientée solutions, je transforme les besoins métiers 
+                        en solutions technologiques innovantes, efficaces et adaptées. Je m'engage au quotidien à rendre le progrès numérique concret, accessible et utile
+                        pour tous.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-24 bg-gray-950">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-start justify-between mb-16 gap-8">
+                <div>
+                    <h2 class="text-3xl font-bold section-title">Mes <span class="text-purple-400">compétences</span></h2>
+                    <div class="section-divider mx-auto mb-8"></div>
+                    <p class="text-gray-400 mt-4 max-w-2xl section-subtitle">Compétences techniques et expérience métier pour des interfaces modernes, des backends robustes et des infrastructures réseau sécurisées.</p>
+                </div>
+                <div class="inline-flex flex-wrap gap-4">
+                    <span class="px-5 py-3 rounded-full bg-blue-500/10 text-blue-200 font-medium">Full Stack</span>
+                    <span class="px-5 py-3 rounded-full bg-purple-500/10 text-purple-200 font-medium">Réseaux</span>
+                    <span class="px-5 py-3 rounded-full bg-pink-500/10 text-pink-200 font-medium">Maintenance</span>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 xl:grid-cols-3 gap-10 mb-16">
+                <div class="skill-card glass-card p-8" data-aos="fade-up">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="skill-icon bg-blue-500/15 text-blue-300">
+                            <i data-feather="monitor"></i>
+                        </span>
+                        <div>
+                            <h3 class="text-xl font-semibold">Frontend</h3>
+                            <p class="text-gray-400 text-sm">Design, ergonomie et interaction visuelle.</p>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-5">
+                        <span class="skill-label">HTML & CSS</span>
+                        <span class="skill-value">95%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                    </div>
+                    <div class="skill-item mb-5">
+                        <span class="skill-label">JavaScript</span>
+                        <span class="skill-value">90%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-label">Tailwind & CSS avancé</span>
+                        <span class="skill-value">92%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card p-8" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="skill-icon bg-purple-500/15 text-purple-300">
+                            <i data-feather="server"></i>
+                        </span>
+                        <div>
+                            <h3 class="text-xl font-semibold">Backend</h3>
+                            <p class="text-gray-400 text-sm">APIs, bases de données et logique serveur.</p>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-5">
+                        <span class="skill-label">PHP/MySQL</span>
+                        <span class="skill-value">88%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+                    </div>
+                    <div class="skill-item mb-5">
+                        <span class="skill-label">Node.js / Express</span>
+                        <span class="skill-value">82%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 82%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-label">APIs sécurisées</span>
+                        <span class="skill-value">84%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 84%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card p-8" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="skill-icon bg-pink-500/15 text-pink-300">
+                            <i data-feather="share-2"></i>
+                        </span>
+                        <div>
+                            <h3 class="text-xl font-semibold">Réseaux</h3>
+                            <p class="text-gray-400 text-sm">Maintenance, sécurité et architecture Cisco.</p>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-5">
+                        <span class="skill-label">Cisco / VLAN</span>
+                        <span class="skill-value">89%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 89%"></div></div>
+                    </div>
+                    <div class="skill-item mb-5">
+                        <span class="skill-label">VPN & Sécurité</span>
+                        <span class="skill-value">86%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 86%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-label">Maintenance</span>
+                        <span class="skill-value">91%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 91%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="glass-card p-6 bg-gradient-to-br from-slate-900 via-slate-950 to-indigo-950 border border-blue-500/20">
+                    <h3 class="text-lg font-semibold mb-3">Confiance client</h3>
+                    <p class="text-gray-300">Travail rigoureux, livraisons rapides et support durable après déploiement.</p>
+                </div>
+                <div class="glass-card p-6 bg-gradient-to-br from-slate-900 via-slate-950 to-purple-950 border border-purple-500/20">
+                    <h3 class="text-lg font-semibold mb-3">Projets sur mesure</h3>
+                    <p class="text-gray-300">Solutions personnalisées pour PME, e-commerce et applications métiers.</p>
+                </div>
+                <div class="glass-card p-6 bg-gradient-to-br from-slate-900 via-slate-950 to-pink-950 border border-pink-500/20">
+                    <h3 class="text-lg font-semibold mb-3">Maintenance continue</h3>
+                    <p class="text-gray-300">Suivi, optimisations et corrections proactives pour infrastructures et sites web.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-24 bg-gradient-to-b from-slate-950 to-gray-900">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-start justify-between mb-16 gap-8">
+                <div>
+                    <h2 class="text-3xl font-bold section-title">Mes <span class="text-blue-400">projets</span></h2>
+                    <div class="section-divider mx-auto mb-8"></div>
+                    <p class="text-gray-400 mt-4 max-w-2xl section-subtitle">Projets réels livrés en production, couvrant e-commerce, infrastructure réseau et administration système.</p>
+                </div>
+                <div class="inline-flex gap-4">
+                    <span class="px-5 py-3 rounded-full bg-blue-500/10 text-blue-200 font-medium">Web</span>
+                    <span class="px-5 py-3 rounded-full bg-purple-500/10 text-purple-200 font-medium">Réseau</span>
+                    <span class="px-5 py-3 rounded-full bg-sky-500/10 text-sky-200 font-medium">SysAdmin</span>
+                </div>
+            </div>
+            <div class="projects-grid grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="glass-card overflow-hidden shadow-2xl project-card featured-card" data-aos="fade-up">
+                    <div class="relative overflow-hidden">
+                        <img src="image/hero4.jpg" alt="E-commerce moderne" class="w-full h-40 object-cover project-img-hover">
+                        <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 text-white text-sm font-medium">⭐ Projet phare</span>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                    </div>
+                    <div class="p-6 project-content">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="w-10 h-10 rounded-xl bg-blue-500/20 flex items-center justify-center">
+                                <i data-feather="shopping-cart" class="text-blue-400"></i>
+                            </div>
+                            <h3 class="text-2xl font-semibold">ShopNext - Plateforme E-commerce</h3>
+                        </div>
+                        <p class="text-gray-300 mb-5 leading-relaxed">Site e-commerce complet avec panier intelligent, paiement sécurisé, tableau de bord administrateur avancé et PWA responsive. Architecture optimisée pour la conversion et l'expérience utilisateur.</p>
+                        <div class="project-tags mb-6">
+                            <span class="project-tag">E-commerce</span>
+                            <span class="project-tag">PWA</span>
+                            <span class="project-tag">Dashboard</span>
+                            <span class="project-tag">Paiement</span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                            <a href="https://github.com/heritierv/shopnext" target="_blank" rel="noreferrer" class="project-link inline-flex items-center gap-2">
+                                <i data-feather="external-link" class="w-4 h-4"></i>
+                                Voir le projet
+                            </a>
+                            <div class="flex items-center gap-4 text-sm text-gray-400">
+                                <span class="flex items-center gap-1">
+                                    <i data-feather="code" class="w-4 h-4"></i>
+                                    PHP
+                                </span>
+                                <span class="flex items-center gap-1">
+                                    <i data-feather="database" class="w-4 h-4"></i>
+                                    MySQL
+                                </span>
+                                <span class="flex items-center gap-1">
+                                    <i data-feather="layout" class="w-4 h-4"></i>
+                                    Bootstrap
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass-card overflow-hidden shadow-xl project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="relative overflow-hidden">
+                        <img src="image/hero2.jpg" alt="Architecture Réseau" class="w-full h-40 object-cover project-img-hover">
+                    </div>
+                    <div class="p-6 project-content">
+                        <h3 class="text-xl font-semibold mb-3">NetSecure - Infrastructure Multi-sites</h3>
+                        <p class="text-gray-300 mb-4">Déploiement d’une architecture réseau robuste avec VPN, VLANs et sécurité renforcée pour des sites distants.</p>
+                        <div class="project-tags mb-4">
+                            <span class="project-tag">Réseau</span>
+                            <span class="project-tag">Sécurité</span>
+                        </div>
+                        <a href="#" class="project-link inline-flex items-center gap-2">
+                            Voir le projet
+                        </a>
+                    </div>
+                </div>
+                <div class="glass-card overflow-hidden shadow-xl project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative overflow-hidden">
+                        <img src="image/hero6.jpg" alt="Administration Système" class="w-full h-40 object-cover project-img-hover">
+                    </div>
+                    <div class="p-6 project-content">
+                        <h3 class="text-xl font-semibold mb-3">SysAdmin Pro - Gestion de Parc & Virtualisation</h3>
+                        <p class="text-gray-300 mb-4">Gestion d’environnements Windows et Linux, optimisation des performances serveur et sécurité des accès.</p>
+                        <div class="project-tags mb-4">
+                            <span class="project-tag">Virtualisation</span>
+                            <span class="project-tag">Active Directory</span>
+                        </div>
+                        <a href="#" class="project-link inline-flex items-center gap-2">
+                            Voir le projet
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12" data-aos="fade-up">
+                <a href="#" class="inline-block bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-3 rounded-full transition transform hover:-translate-y-0.5">
+                    Voir tous mes projets
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold section-title text-center mb-6" data-aos="fade-up">Me <span class="text-purple-400">contacter</span></h2>
+                    <div class="section-divider mx-auto mb-8"></div>
+                    <p class="text-gray-400 text-center max-w-2xl mx-auto mb-12 text-lg">Envoyez un message clair pour que je puisse vous répondre rapidement avec une solution adaptée.</p>
+            <div class="flex flex-col md:flex-row md:items-start gap-12">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <h3 class="text-2xl font-semibold mb-6">Informations de contact</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-blue-600 p-3 rounded-full mr-4">
+                                <i data-feather="mail" class="text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Email</h4>
+                                <p class="text-gray-400">eriamabho@gmail.com</p>
+                            </div>
+                        </div>
+<div class="flex items-start">
+                            <div class="bg-purple-600 p-3 rounded-full mr-4">
+                                <i data-feather="phone" class="text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Téléphone</h4>
+                                <p class="text-gray-400">+243 821455754</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-10">
+                        <h3 class="text-2xl font-semibold mb-6">Réseaux sociaux</h3>
+<div class="flex space-x-4">
+                            <a href="#" class="bg-gray-800 hover:bg-blue-600 p-3 rounded-full transition">
+                                <i data-feather="facebook" class="text-white"></i>
+                            </a>
+                            <a href="#" class="bg-gray-800 hover:bg-blue-400 p-3 rounded-full transition">
+                                <i data-feather="twitter" class="text-white"></i>
+                            </a>
+                            <a href="#" class="bg-gray-800 hover:bg-purple-600 p-3 rounded-full transition">
+                                <i data-feather="instagram" class="text-white"></i>
+                            </a>
+                            <a href="#" class="bg-gray-800 hover:bg-blue-700 p-3 rounded-full transition">
+                                <i data-feather="linkedin" class="text-white"></i>
+                            </a>
+                            <a href="#" class="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition">
+                                <i data-feather="github" class="text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+<div class="md:w-1/2 md:pl-12" data-aos="fade-left">
+                    <h3 class="text-2xl font-semibold mb-6">Envoyez-moi un message</h3>
+<form class="space-y-6 glass-card p-6">
+                        <div>
+                            <label for="name" class="block mb-2 text-gray-300">Votre nom</label>
+                            <input type="text" id="name" class="input-glass w-full rounded-lg px-4 py-3">
+                        </div>
+                        <div>
+                            <label for="email" class="block mb-2 text-gray-300">Votre email</label>
+                            <input type="email" id="email" class="input-glass w-full rounded-lg px-4 py-3">
+                        </div>
+                        <div>
+                            <label for="subject" class="block mb-2 text-gray-300">Sujet</label>
+                            <input type="text" id="subject" class="input-glass w-full rounded-lg px-4 py-3">
+                        </div>
+                        <div>
+                            <label for="message" class="block mb-2 text-gray-300">Message</label>
+                            <textarea id="message" rows="5" class="input-glass w-full rounded-lg px-4 py-3"></textarea>
+                        </div>
+                        <button type="submit" class="btn-gradient text-white px-8 py-3 rounded-xl transition w-full md:w-auto">
+                            Envoyer le message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+<a href="#" class="text-2xl font-bold text-blue-400">Heritier <span class="text-purple-400">Eriamabho</span></a>
+                </div>
+                <div class="text-gray-400 text-center md:text-right">
+<p>Copyright © 2026 Eriamabho Atsidri Heritier. Tous droits réservés.</p>
+                    <p class="text-sm mt-1">Développeur Full Stack & Expert IT</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize AOS animations
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            feather.replace();
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+// Animate skill bars on scroll
+        const skillBars = document.querySelectorAll('.skill-progress');
+        
+        const animateSkillBars = () => {
+            skillBars.forEach(bar => {
+                const targetWidth = bar.getAttribute('data-skill') ? `${bar.getAttribute('data-skill')}%` : (bar.style.width || '0%');
+                bar.style.width = '0';
+                setTimeout(() => {
+                    bar.style.width = targetWidth;
+                }, 200);
+            });
+        };
+
+        // Use Intersection Observer to animate skill bars when they come into view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateSkillBars();
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.2 });
+
+        const skillsSection = document.getElementById('skills');
+        if (skillsSection) {
+            observer.observe(skillsSection);
+        }
+
+        // Enhanced project card interactions
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-8px) scale(1.02)';
+            });
+
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Replace feather icons
+        feather.replace();
+    </script>
+</body>
+</html>
