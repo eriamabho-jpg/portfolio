@@ -136,6 +136,41 @@ textarea.input-glass {
   background-clip: text;
 }
 
+.hero-badge {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 22px 50px rgba(59, 130, 246, 0.22);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.hero-badge:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 28px 60px rgba(59, 130, 246, 0.28);
+}
+
+#hero-role {
+  display: inline-block;
+  min-width: 18ch;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#hero-role::after {
+  content: '';
+  display: inline-block;
+  width: 2px;
+  height: 1.1em;
+  margin-left: 0.35rem;
+  background: #7dd3fc;
+  vertical-align: middle;
+  animation: blink-cursor 1s step-end infinite;
+}
+
+@keyframes blink-cursor {
+  50% {
+    opacity: 0;
+  }
+}
+
 .section-title {
   font-size: clamp(2.2rem, 3vw, 3.5rem);
   letter-spacing: -0.04em;
